@@ -1,0 +1,80 @@
+   
+    <mat-nav-list>
+  
+      <h4 class="name" style="padding-left: 20px;">
+        John Smith
+      </h4>
+      <p class="designation" style="padding-left: 20px;">Engineer</p>
+      <p class="designation" style="padding-left: 20px;">Role: </p>
+      <br>
+      <br>
+      <br>
+      <h2 class="designation" style="padding-left: 20px;">
+        Menu
+      </h2>
+  
+      <button mat-button class="menu-button" routerLink="dashboard">
+        <mat-icon>dashboard</mat-icon>
+        <span>Dashboard</span>
+      </button>
+      <mat-divider></mat-divider>
+  
+  
+      <button mat-button class="menu-button" (click)="toggleMenu()">
+        <mat-icon>markunread_mailbox</mat-icon>
+        <span>Inventaire</span>
+      </button>
+      <div *ngIf="isMenuOpened">
+        <button mat-button class="menu-item" routerLink="mon-stock">
+          <span>- Mon stock</span>
+        </button>
+        <button mat-button class="menu-item" routerLink="mes-ventes">
+          <span>- Mes ventes</span>
+        </button>
+      </div>
+  
+      <mat-divider></mat-divider>
+  
+      <button mat-button class="menu-button" (click)="toggleMenu1()">
+        <mat-icon>event</mat-icon>
+        <span>Releases</span>
+      </button>
+      <div *ngIf="isMenuOpened1">
+        <button mat-button class="menu-item" routerLink="cop-or-drop">
+          <span>- Cop or Drop</span>
+        </button>
+        <button mat-button class="menu-item">
+          <span>- Hold or Sell</span>
+        </button>
+      </div>
+  
+      <mat-divider></mat-divider>
+  
+      <button mat-button class="menu-button" (click)="toggleMenu2()">
+        <mat-icon>supervisor_account</mat-icon>
+        <span>Communaute</span>
+      </button>
+      <div *ngIf="isMenuOpened2">
+        <button mat-button class="menu-item"  routerLink="fil-dactualite">
+          <span>- Fil d'actualite</span>
+        </button>
+        <button mat-button class="menu-item">
+          <span>- Chat</span>
+        </button>
+        <button mat-button class="menu-item">
+          <span>- Marketplace</span>
+        </button>
+      </div>
+      <mat-divider></mat-divider>
+      <button mat-button class="menu-button" routerLink="wtblist">
+        <mat-icon>list</mat-icon>
+        <span>WTB List</span>
+      </button>
+      <mat-divider></mat-divider>
+      <button mat-button class="menu-button "routerLink="profil">
+        <mat-icon>account_circle</mat-icon>
+        <span>Profile</span>
+      </button>
+    </mat-nav-list>
+  
+  

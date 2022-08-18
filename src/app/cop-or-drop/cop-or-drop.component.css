@@ -1,0 +1,55 @@
+.row h1{
+    color: #9D97CF;
+}
+
+.row p{
+    color: #9D97CF;
+}
+
+.hold{
+    padding-top: 40px;
+  padding-right: 10px;
+  padding-bottom: 50px;
+  padding-left: 30px;
+}
+ 
+.row h3{
+    color: #9D97CF;
+}
+
+.guide{
+    background-color: #2D2A4E;
+    border-radius: 7px;
+    
+}
+
+.guide1{
+    padding-top: 40px;
+    padding-right: 50px;
+    padding-left: 30px;
+}
+
+.sl{
+    box-shadow: -10px 0px 10px 1px #2A2748;
+}
+
+.desc{
+    padding-top: 30px;
+    padding-right: 40px;
+    
+    padding-left: 40px;
+}
+
+hr{
+    color: #9D97CF;
+}
+
+@media screen and (max-width:600px){
+    .guide2
+{
+    
+    padding: 0px 0px;
+    
+}
+
+}
