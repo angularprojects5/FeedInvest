@@ -23,6 +23,7 @@ import { CopOrDropComponent } from './cop-or-drop/cop-or-drop.component';
 import { MesVentesComponent } from './mes-ventes/mes-ventes.component';
 import { FildActualiteComponent } from './fild-actualite/fild-actualite.component';
 import { ProfilComponent } from './profil/profil.component';
+import { MarketplaceComponent } from './marketplace/marketplace.component';
 
 @NgModule({
   declarations: [
@@ -34,6 +35,7 @@ import { ProfilComponent } from './profil/profil.component';
     MesVentesComponent,
     FildActualiteComponent,
     ProfilComponent,
+    MarketplaceComponent,
   ],
   imports: [
     BrowserModule,
