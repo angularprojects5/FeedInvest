@@ -2,22 +2,22 @@
     background-color: #272444;
     padding: 3%;
     position: absolute;
-    display: flex;
+    display: inline;
+    color:#ABA6E0;
     flex-wrap: wrap;
     
 }
 .mycontainer hr {
     width: 100%;
     border-radius: 0%;
-    border: 0ch;
+    display: inline;
+    border: 2px solid #353254;
   }
 .mycontainer2{
     background-color: #2D2A4E;
-  
-    text-align: center;
     width:250px ;
     height: 80px;
- 
+    display: inline;
     border-radius: 5px;
 }
 .top-right {
@@ -27,10 +27,9 @@
 .box{
     align-content: center;
     background-color: #2D2A4E;
-    border-radius: 0.5em;
+    border-radius: 4px;
     box-shadow: none;
-    padding: 1em;
-    padding-left: 0em;;
+    position: relative;
     color:#ABA6E0;
     font-size: small;
     border: #272444;
@@ -58,3 +57,17 @@
     border-radius: 4px;
     
 }
+
+.dot {
+    height: 1em;
+    width: 1em;
+    background-color: rgb(191, 12, 12);
+    border-radius: 50%;
+   
+  }
+  .hr {
+    width: 100%;
+    border-radius: 0%;
+    display: inline;
+    border: 2px solid #353254;
+  }

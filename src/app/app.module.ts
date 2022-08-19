@@ -24,6 +24,9 @@ import { MesVentesComponent } from './mes-ventes/mes-ventes.component';
 import { FildActualiteComponent } from './fild-actualite/fild-actualite.component';
 import { ProfilComponent } from './profil/profil.component';
 import { MarketplaceComponent } from './marketplace/marketplace.component';
+import { HoldOrSellComponent } from './hold-or-sell/hold-or-sell.component';
+import { FormsModule } from '@angular/forms';
+import { PopupComponent } from './popup/popup.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +39,8 @@ import { MarketplaceComponent } from './marketplace/marketplace.component';
     FildActualiteComponent,
     ProfilComponent,
     MarketplaceComponent,
+    HoldOrSellComponent,
+    PopupComponent,
   ],
   imports: [
     BrowserModule,
@@ -50,7 +55,8 @@ import { MarketplaceComponent } from './marketplace/marketplace.component';
     MatSelectModule,
     MatListModule,
     NgbModule,
-    HttpClientModule
+    HttpClientModule,
+    FormsModule
   ],
   providers: [AuthService],
   bootstrap: [AppComponent]

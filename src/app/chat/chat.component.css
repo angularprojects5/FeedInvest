@@ -1,0 +1,146 @@
+h2{
+    color: #9D97CF;
+}
+
+p{
+    color: #9D97CF;
+}
+
+.c{
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.c1{
+    padding-top: 10px;
+    padding-left: 15px;
+}
+
+.s{
+    background-color: #2D2A4E;
+    color: #9D97CF;
+    height: 30px;
+    border-radius: 5px;
+    padding-top: 6px;
+    padding-left: 6px;
+    display: flex;
+}
+
+.c2{
+    margin-top: 15px;
+    /* background-color: #2D2A4E; */
+    border-radius: 5px;
+
+}
+
+.c2:hover{
+    /* margin-top: 15px; */
+    background-color: #312E51;
+    border-radius: 5px;
+
+}
+
+.c3{
+    padding-top: 10px;
+    padding-right: 20px;
+}
+
+.c4{
+    /* margin-top: 10px; */
+    background-color: #2D2A4E;
+    border-radius: 5px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+
+}
+
+.c5{
+    /* margin-top: 10px; */
+    background-color: #2D2A4E;
+    border-radius: 5px;
+    padding-top: 19px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+
+
+}
+
+.cover{
+    margin-top: 15px;
+    background-color: #2D2A4E;
+    border-radius: 5px;
+}
+.cover1{
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 15px;
+    background-color: #2D2A4E;
+    border-radius: 5px;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+hr{
+    color:#4D4A6D;
+    margin-right:20px;
+    margin-left:20px;
+}
+
+.c6{
+    background-color: #312E51;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    margin-top: 10px;
+    margin-left: 1px;
+    margin-right: 1px;
+    /* max-width: 280px; */
+}
+
+.d{
+    width: 70px; 
+    color: #625F7A;
+    background-color:#312E51;
+    border-radius:5px;
+    
+    text-align: center;
+    margin-left: 250px;
+}
+
+.d1{
+    width: 70px; 
+    color: #625F7A;
+    background-color:#312E51;
+    border-radius:5px;
+    
+    text-align: center;
+    margin-left: 170px;
+}
+
+.chat1{
+    background-color: #312E51;
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding-bottom: 1px;
+    width: 400px;
+}
+
+.chat{
+    margin-left: -25px;
+    margin-right: -45px;
+}
+
+.chat2{
+    background-color: #C2BCFB;
+    border-radius: 3px;
+    padding-top: 10px;
+    padding-left: 10px;
+    margin-left: 80px;
+    margin-right: -45px;
+    /* margin-left: 130px; */
+
+    /* width: 400px; */
+}
