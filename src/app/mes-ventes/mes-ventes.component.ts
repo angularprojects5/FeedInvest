@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, TemplateRef, ViewChild } from '@angular/core';
+import { MatDialog } from '@angular/material/dialog';
 
 @Component({
   selector: 'app-mes-ventes',
@@ -7,7 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MesVentesComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private dialog: MatDialog
+  ) { }
+
+  @ViewChild('secondDialog', { static: true }) secondDialog: TemplateRef<any> | undefined;
+  openDialogWithTemplateRef(templateRef: TemplateRef<any>) {
+    this.dialog.open(templateRef);
+  }
+ 
 
   ngOnInit(): void {
   }
